@@ -110,7 +110,8 @@ Local DB Hosted on developer machine
 Production DB Hosted on neon.tech
 """
 DATABASES = {
-    'default': dj_database_url.parse(os.getenv('db'))
+    # 'default': dj_database_url.parse(os.getenv('db'))
+    'default': dj_database_url.config(default=os.getenv('db'))
 }
 
 # Password validation
