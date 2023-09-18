@@ -1,5 +1,5 @@
 ---
-Universal Resource Locators - Schema for unrCrewGallax
+Universal Resource Locators - Schema for Corsrex-Alpha
 ---
 #### Authentication Schema
 [ Added but not active ]: Authentication uses JWT and custom roles that must be configured manually [ only a supreme user has access to that. ] or must be configured by doing some required activity.
